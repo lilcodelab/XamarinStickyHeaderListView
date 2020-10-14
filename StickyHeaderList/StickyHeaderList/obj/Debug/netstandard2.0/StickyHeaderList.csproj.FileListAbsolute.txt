@@ -1,0 +1,14 @@
+C:\Homework\StickyHeaderList\StickyHeaderList\StickyHeaderList\bin\Debug\netstandard2.0\StickyHeaderList.deps.json
+C:\Homework\StickyHeaderList\StickyHeaderList\StickyHeaderList\bin\Debug\netstandard2.0\StickyHeaderList.dll
+C:\Homework\StickyHeaderList\StickyHeaderList\StickyHeaderList\bin\Debug\netstandard2.0\ref\StickyHeaderList.dll
+C:\Homework\StickyHeaderList\StickyHeaderList\StickyHeaderList\bin\Debug\netstandard2.0\StickyHeaderList.pdb
+C:\Homework\StickyHeaderList\StickyHeaderList\StickyHeaderList\obj\Debug\netstandard2.0\StickyHeaderList.csprojAssemblyReference.cache
+C:\Homework\StickyHeaderList\StickyHeaderList\StickyHeaderList\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Homework\StickyHeaderList\StickyHeaderList\StickyHeaderList\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Homework\StickyHeaderList\StickyHeaderList\StickyHeaderList\obj\Debug\netstandard2.0\StickyHeaderList.AssemblyInfoInputs.cache
+C:\Homework\StickyHeaderList\StickyHeaderList\StickyHeaderList\obj\Debug\netstandard2.0\StickyHeaderList.AssemblyInfo.cs
+C:\Homework\StickyHeaderList\StickyHeaderList\StickyHeaderList\obj\Debug\netstandard2.0\StickyHeaderList.csproj.CoreCompileInputs.cache
+C:\Homework\StickyHeaderList\StickyHeaderList\StickyHeaderList\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Homework\StickyHeaderList\StickyHeaderList\StickyHeaderList\obj\Debug\netstandard2.0\StickyHeaderList.dll
+C:\Homework\StickyHeaderList\StickyHeaderList\StickyHeaderList\obj\Debug\netstandard2.0\ref\StickyHeaderList.dll
+C:\Homework\StickyHeaderList\StickyHeaderList\StickyHeaderList\obj\Debug\netstandard2.0\StickyHeaderList.pdb

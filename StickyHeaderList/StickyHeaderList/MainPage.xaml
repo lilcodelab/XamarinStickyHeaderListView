@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+  x:Class="StickyHeaderList.MainPage"
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:controls="clr-namespace:StickyHeaderList.Controls"
+  xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+  ios:Page.UseSafeArea="True"
+  BackgroundColor="DarkGray">
+  <Grid>
+
+    <controls:StickyHeaderListView
+      BackgroundColor="DarkGray"
+      HasUnevenRows="true"
+      HeightRequest="1000000"
+      ItemsSource="{Binding ListItems}"
+      SelectionMode="None"
+      SeparatorVisibility="None"
+      StickHeaderCommand="{Binding StickHeaderCommand}"
+      UnstickHeaderCommand="{Binding UnstickHeaderCommand}">
+
+      <x:Arguments>
+        <ListViewCachingStrategy>RecycleElement</ListViewCachingStrategy>
+      </x:Arguments>
+
+      <controls:StickyHeaderListView.Header>
+        <Grid BackgroundColor="DarkGray" HeightRequest="250">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="150" />
+            <RowDefinition Height="100" />
+          </Grid.RowDefinitions>
+          <Label
+            Text="This is a showcase for sticky header list view in xamarin forms"
+            TextColor="White"
+            VerticalOptions="CenterAndExpand" />
+
+          <StackLayout
+            Grid.Row="1"
+            BackgroundColor="DarkGray"
+            HeightRequest="100"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="Start">
+            <Label
+              FontSize="Medium"
+              HorizontalOptions="Center"
+              Text="Still here!"
+              TextColor="White"
+              VerticalOptions="CenterAndExpand" />
+          </StackLayout>
+        </Grid>
+      </controls:StickyHeaderListView.Header>
+
+      <controls:StickyHeaderListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <StackLayout BackgroundColor="Gray" HeightRequest="100">
+              <Label
+                HorizontalOptions="Center"
+                Text="{Binding .}"
+                TextColor="White"
+                VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </controls:StickyHeaderListView.ItemTemplate>
+
+    </controls:StickyHeaderListView>
+
+    <StackLayout
+      BackgroundColor="DarkGray"
+      HeightRequest="100"
+      HorizontalOptions="FillAndExpand"
+      IsVisible="{Binding ShowStickyHeader}"
+      VerticalOptions="Start">
+      <Label
+        FontSize="Medium"
+        HorizontalOptions="Center"
+        Text="Still here!"
+        TextColor="White"
+        VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+  </Grid>
+
+</ContentPage>
