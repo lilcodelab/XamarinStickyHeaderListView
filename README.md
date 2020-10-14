@@ -1,6 +1,8 @@
 # List view with a sticky header in xamarin forms
 
-Today I will show you how to create a list view with a sticky header in Xamarin Forms for iOS and Android. 
+Today I will show you how to create a list view with a sticky header in Xamarin Forms for iOS and Android.
+
+![alt-text](https://github.com/JukiJ/XamarinStickyHeaderListView/blob/main/example.gif)
 
 The idea behind it is that often mobile applications have a part on top of the screen which gets scrolled of the screen but small part of it is left and sticked on top. It will be a very simple list view just to showcase the functionality and how to achieve
 it without much styling added to it.
